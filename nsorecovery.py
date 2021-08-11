@@ -141,7 +141,9 @@ def checkBirthDay(day,month,year,endYear):
                 day=day-1
             else:
                 print("Found Date!!!!!",date)
-                print(r.text)
+		year=endYear
+		break
+#                print(r.text)
 
 
             day=day+1
